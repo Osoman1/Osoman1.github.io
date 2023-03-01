@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Currículum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="https://image.shutterstock.com/image-vector/www-in…et-favicon-icon-illustration-260nw-1029865333.jpg">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@500;700&family=Roboto+Slab:wght@700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#informacion-personal">Información personal</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#descargar">Descargar CV</a></li>
+      </ul>
+    </nav>
+  <header>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@500;700&family=Roboto+Slab:wght@700;800;900&display=swap" rel="stylesheet">
+      <h1>-Currículum Vitae-</h1>
+      <img src="https://randomuser.me/api/portraits/men/9.jpg" alt="foto-Perfil.jpg">
+    </header>
+    <section id="Información-personal">
+      <h2>Información personal</h2>
+        <ul>
+        <li>Nombre y Apellido: Jack Rogers</li>
+        <li>Email: jack.rogers@ejemplo.com</li>
+        <li>Teléfono: (857) 725-6252</li>
+        <li>Ubicación: 2555 Lakeview St, Capital del Nuevo Mundo de la Programación</li>
+      </ul>
+    </section>
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+       <h3>Desarrollador Web</h3>
+      <p>Empresa Tecno Style Medrán</Style></p>
+      <ul>
+        <li>Desarrollo de sitios web con HTML, CSS y JavaScript</li>
+        <li>Trabajo en equipo con diseñadores y otros desarrolladores</li>
+        <li>Manejo de CMS como WordPress y Drupal</li>
+      </ul>
+      <h3>Desarrollador Móvil</h3>
+      <p>Empresa Star Style Medrán</p>
+      <ul>
+        <li>Desarrollo de aplicaciones móviles para iOS y Android</li>
+        <li>Colaboración en el diseño y la implementación de la arquitectura de las aplicaciones</li>
+        <li>Trabajo con herramientas de desarrollo como Xcode y Android Studio</li>
+      </ul>
+    </section>
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Desarrollo web con HTML, CSS, JavaScript y PHP</li>
+        <li>Desarrollo de aplicaciones móviles para iOS y Android</li>
+        <li>Experiencia con CMS como WordPress</li>
+        <li>Diseño web con Photoshop</li>
+      </ul>
+    </section>
+    <section id="descargar">
+      <h2>Descargar CV</h2>
+      <p><a href="cv.pdf" download> Descargar CV</a></p>
+    </section>
+  </body>
+    <script>
+      var fotoPerfil = document.querySelector('img');
+          fotoPerfil.addEventListener('click', function() {
+          fotoPerfil.style.width = '200px'; //Cambiar el ancho de la imagen a 200px al hacer clic en ella
+        });
+      var boton = document.querySelector('a[href="cv.pdf"]'); //Seleccionar el enlace del botón Descargar CV en PDF
+          boton.addEventListener('click', function() {
+          boton.innerHTML = 'Contactar'; //Cambiar el texto del botón a "Contactar" al hacer clic en él
+          boton.style.fontFamily = 'Arial'; //Cambiar la fuente del botón a Arial
+          boton.style.borderRadius = '5px'; //Cambiar la forma del botón a un borde redondeado
+        });
+      var seccionContacto = document.createElement("section");
+          seccionContacto.innerHTML  
+    </script>
+</html>
